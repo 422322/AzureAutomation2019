@@ -9,6 +9,6 @@ cd /home/webapp
 sudo git clone https://github.com/TimothySealy/cac-simple-webapp.git
 cd cac-simple-webapp
 sudo bash -c 'echo PORT=80 >> /etc/environment'
-sudo export PORT=80
+export PORT=80
 sudo npm install
 sudo npm run start &
