@@ -4,11 +4,11 @@ sudo apt-get install -y https://dl.fedoraproject.org/pub/epel/epel-release-lates
 sudo apt-get install -y npm
 sudo apt-get install -y nodejs
 sudo apt-get install -y git
-mkdir /home/webapp
+sudo mkdir /home/webapp
 cd /home/webapp
-git clone https://github.com/TimothySealy/cac-simple-webapp.git
+sudo git clone https://github.com/TimothySealy/cac-simple-webapp.git
 cd cac-simple-webapp
-echo PORT=80 >> /etc/environment
-export PORT=80
+sudo bash -c 'echo PORT=80 >> /etc/environment'
+sudo export PORT=80
 sudo npm install
 sudo npm run start &
