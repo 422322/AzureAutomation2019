@@ -2,7 +2,7 @@
 sudo apt-get -y update
 
 # installeer Apache2
-sudo apt-get -y install apache2 ssl-cert
+sudo apt-get -y install nginx
 #alles wordt goed uitgevoerd, behalve dit commando. Daarom werkt het volgende commando ook niet, want /var/www/html/ bestaat niet.
 
 sudo chmod 777 /var/www/html/index.html
