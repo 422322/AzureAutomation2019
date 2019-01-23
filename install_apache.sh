@@ -2,7 +2,8 @@
 sudo apt-get -y update
 
 # installeer Apache2
-sudo apt-get -y install apache2 #alles wordt goed uitgevoerd, behalve dit commando. Daarom werkt het volgende commando ook niet, want /var/www/html/ bestaat niet.
+sudo apt-get -y install apache2 ssl-cert
+#alles wordt goed uitgevoerd, behalve dit commando. Daarom werkt het volgende commando ook niet, want /var/www/html/ bestaat niet.
 
 sudo chmod 777 /var/www/html/index.html
 
